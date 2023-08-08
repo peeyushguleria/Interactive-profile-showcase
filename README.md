@@ -1,1 +1,2 @@
-# job-review-app
+# Interactive Profile Showcase
+The Interactive Profile Showcase is a web application that presents a curated collections of professional profiles. Built using HTML, CSS and JS,this interactive app lets users explore captivating profiles of individual , featuring images, names , occupation and engaging descriptions. Users can navigate through profiles using next and the previous buttons or be surprised by the random profile section.

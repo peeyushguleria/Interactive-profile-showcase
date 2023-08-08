@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.main-heading {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.underline {
+    height: 0.2rem;
+    width: 4rem;
+    background-color: #62b6cb;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1em;
+}
+
+.image1 {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 200px;
+    box-shadow: 8px 1px 1px rgba(53, 83, 123, 0.457);
+    border: 2px solid white;
+    margin-top: 1rem;
+
+}
+
+.main-container {
+    width: 40%;
+    box-shadow: 2px 6px 20px rgba(0, 0, 0, 0.3);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0.7rem;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.name-of-person {
+    letter-spacing: 0.2em;
+    margin-top: 0.5rem;
+}
+
+.occupation-of-person {
+    font-size: 0.7em;
+    color: #62b6cb;
+}
+
+.description-of-person {
+    font-size: 0.7rem;
+    margin-top: 0.4rem;
+    color: gray;
+    line-height: 1.3rem;
+}
+
+.button {
+    margin: .2rem;
+    cursor: pointer;
+
+
+
+}
+
+.grid-button {
+    display: grid;
+    grid-template-columns: 40px 40px;
+    justify-content: center;
+}
+
+
+.next-button,
+.previous-button {
+    border: none;
+    background-color: white;
+    color: #62b6cb;
+}
+
+.surprise-button {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    margin-top: 0px;
+    font-size: 0.6rem;
+    border: 1px solid #62b6cb;
+    border-radius: 0.3rem;
+    background-color: white;
+    color: #62b6cb;
+}
+
+.button:hover {
+    color: black;
+}
+
+.surprise-button:hover {
+    border: 1px black solid;
+}
